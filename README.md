@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a single-page portfolio application built from scratch using react.js. My portflolio of work showcases my skills, projects, and contact information.
+React Portfolio is a single-page application built from scratch using react.js. My portflolio of work showcases my skills, projects, and contact information.
 
 ## Table of Contents 
 
