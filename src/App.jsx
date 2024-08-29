@@ -16,8 +16,8 @@ function App() {
         {/* Link the user back to the homepage. The to prop is used in place of an href */}
         <div> 
        
-        <a href="https://github.com/mandi7469"> <i class="bi bi-github p-4" style={{color: "#65AFFF"}}></i></a>
-        <a href="https://www.linkedin.com/in/amanda-changa/"><i class="bi bi-linkedin" style={{color: "#65AFFF"}}></i></a>
+        <a href="https://github.com/mandi7469"> <i className="bi bi-github pe-2" style={{color: "#65AFFF"}}></i></a>
+        <a href="https://www.linkedin.com/in/amanda-changa/"><i className="bi bi-linkedin" style={{color: "#65AFFF"}}></i></a>
         
         </div>
       </footer>

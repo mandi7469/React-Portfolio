@@ -1,20 +1,128 @@
+import blog from "../assets/images/blog.png";
+
 export default function Portfolio() {
-    return (
-      <div>
-        <h1>Portfolio</h1>
-        <p>
-          Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-          molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-          magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-          efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-          mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-          posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-          faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-          ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-          dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-          conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-          rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-        </p>
+  return (
+    <div>
+      <div className="container text-center">
+        <div className="row">
+          <h1>Portfolio</h1>
+        </div>
+        <div className="row pt-3">
+          <div className="col">
+            <div className="card" style={{ width: "18rem" }}>
+              <img
+                src={blog}
+                className="card-img-top"
+                alt="Personal Blog App"
+              />
+              <div className="card-body">
+                <h5 className="card-title project-title">Personal-Blog</h5>
+                <p className="card-text">
+                  This application is a two-page website where users can input and veiw
+                  blog posts. It includes a content form, dynamically rendered
+                  blog posts, and a light/dark toggle mode using HTML, CSS and
+                  JavaScript.
+                </p>
+                <a href="https://github.com/mandi7469">
+                  <i
+                    className="bi bi-github pe-5"
+                    style={{ color: "#65AFFF" }}
+                  ></i>
+                </a>
+
+                <a href="https://mandi7469.github.io/Personal-Blog/">
+                  <i class="bi bi-link" style={{ color: "#65AFFF" }}></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div className="col">
+              <div className="card" style={{ width: "18rem" }}>
+                <img src="..." className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">Card title</h5>
+                  <p className="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" className="btn btn-primary">
+                    Go somewhere
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div className="col">
+              <div className="card" style={{ width: "18rem" }}>
+                <img src="..." className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">Card title</h5>
+                  <p className="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" className="btn btn-primary">
+                    Go somewhere
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row pt-4">
+          <div className="col">
+            <div className="card" style={{ width: "18rem" }}>
+              <img src="..." className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" className="btn btn-primary">
+                  Go somewhere
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div className="col">
+              <div className="card" style={{ width: "18rem" }}>
+                <img src="..." className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">Card title</h5>
+                  <p className="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" className="btn btn-primary">
+                    Go somewhere
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div className="col">
+              <div className="card" style={{ width: "18rem" }}>
+                <img src="..." className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">Card title</h5>
+                  <p className="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" className="btn btn-primary">
+                    Go somewhere
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    );
-  }
+    </div>
+  );
+}
