@@ -1,6 +1,9 @@
 import blog from "../assets/images/blog.png";
 import svg from "../assets/images/svg.png";
 import taskBoard from "../assets/images/taskBoard.png";
+import weather from "../assets/images/weather.png";
+import shelfie from "../assets/images/shelfie.png";
+import employee from "../assets/images/employee.png";
 
 export default function Portfolio() {
   return (
@@ -41,7 +44,7 @@ export default function Portfolio() {
           <div className="col">
             <div className="col">
               <div className="card" style={{ width: "18rem" }}>
-                <img src={svg} className="card-img-top" alt="..." />
+                <img src={svg} className="card-img-top" alt="SVG Logo" />
                 <div className="card-body">
                   <h5 className="card-title project-title">SVG Logo Maker</h5>
                   <p className="card-text">
@@ -68,13 +71,17 @@ export default function Portfolio() {
           <div className="col">
             <div className="col">
               <div className="card" style={{ width: "18rem" }}>
-                <img src={taskBoard} className="card-img-top" alt="..." />
+                <img
+                  src={taskBoard}
+                  className="card-img-top"
+                  alt="Task Board"
+                />
                 <div className="card-body">
                   <h5 className="card-title project-title">Task Board</h5>
                   <p className="card-text">
-                    Task Board is an application that allows users to manage and delete 
-                    tasks. This application runs in the browser and features dynamically
-                    updated HTML and CSS powered by JQuery.
+                    Task Board is an application that allows users to manage and
+                    delete tasks. This application runs in the browser and
+                    features dynamically updated HTML and CSS powered by JQuery.
                   </p>
                   <a href="https://github.com/mandi7469/Task-Board">
                     <i
@@ -94,15 +101,27 @@ export default function Portfolio() {
         <div className="row pt-4">
           <div className="col">
             <div className="card" style={{ width: "18rem" }}>
-              <img src="..." className="card-img-top" alt="..." />
+              <img
+                src={weather}
+                className="card-img-top"
+                alt="Weather Dashboard"
+              />
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title project-title">Weather Dashboard</h5>
                 <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Weather Dashboard retrieves data from third party APIs and
+                  renders it on the page. The application runs in the browser
+                  and features dynamically updated HTML and CSS.
                 </p>
-                <a href="#" className="btn btn-primary">
-                  Go somewhere
+                <a href="https://github.com/mandi7469/Weather-Dashboard">
+                  <i
+                    className="bi bi-github pe-5"
+                    style={{ color: "#65AFFF" }}
+                  ></i>
+                </a>
+
+                <a href="https://mandi7469.github.io/Weather-Dashboard/">
+                  <i class="bi bi-link" style={{ color: "#65AFFF" }}></i>
                 </a>
               </div>
             </div>
@@ -110,15 +129,27 @@ export default function Portfolio() {
           <div className="col">
             <div className="col">
               <div className="card" style={{ width: "18rem" }}>
-                <img src="..." className="card-img-top" alt="..." />
+                <img
+                  src={employee}
+                  className="card-img-top"
+                  alt="Employee Tracker"
+                />
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
+                  <h5 className="card-title project-title">Employee Tracker</h5>
                   <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Employee Tracker is a command-line application to
+                    manage a company's employee database, using Node.js,
+                    Inquirer, and PostgreSQL.
                   </p>
-                  <a href="#" className="btn btn-primary">
-                    Go somewhere
+                  <a href="https://github.com/mandi7469/SQL-Employee-Tracker">
+                    <i
+                      className="bi bi-github pe-5"
+                      style={{ color: "#65AFFF" }}
+                    ></i>
+                  </a>
+
+                  <a href="https://drive.google.com/file/d/1coPUpQGTgcaYGv6AJaD5MF0DFNtYHn3U/view?usp=sharing">
+                    <i class="bi bi-link" style={{ color: "#65AFFF" }}></i>
                   </a>
                 </div>
               </div>
@@ -127,15 +158,25 @@ export default function Portfolio() {
           <div className="col">
             <div className="col">
               <div className="card" style={{ width: "18rem" }}>
-                <img src="..." className="card-img-top" alt="..." />
+                <img src={shelfie} className="card-img-top" alt="Shelfie" />
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
+                  <h5 className="card-title project-title">Shelfie</h5>
                   <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Shelfie was a collaborative project. The application allows
+                    the user to create and maintain a collection of books that
+                    they have read, or wish to read in the future. The
+                    application utilizes postgreSQL, Node.js, Express,
+                    JavaScript, CSS, and Handlebars.
                   </p>
-                  <a href="#" className="btn btn-primary">
-                    Go somewhere
+                  <a href="https://github.com/mandi7469/Shelfie">
+                    <i
+                      className="bi bi-github pe-5"
+                      style={{ color: "#65AFFF" }}
+                    ></i>
+                  </a>
+
+                  <a href="https://shelfie-53sl.onrender.com/">
+                    <i class="bi bi-link" style={{ color: "#65AFFF" }}></i>
                   </a>
                 </div>
               </div>

@@ -12,7 +12,7 @@ function App() {
       <Nav />
       <main className="mx-3">
         <Outlet />
-        <footer className="portfolio-footer">
+        <footer className="portfolio-footer mt-2">
         {/* Link the user back to the homepage. The to prop is used in place of an href */}
         <div> 
        
