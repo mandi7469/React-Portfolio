@@ -48,6 +48,12 @@ li {
   color: var(--whitesmoke);
 }
 
+.headshot {
+  width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
 /* .card-img-top {
   height: 10rem;
 } */
