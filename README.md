@@ -22,7 +22,7 @@ React Portfolio is a single-page application built from scratch using react.js. 
 
 ## Usage
 
-[Deployed application link]()
+[Deployed application link](https://prismatic-cajeta-ac1d42.netlify.app)
 
 The image below shows the apperance of the portfolio page of my application:
 
