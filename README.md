@@ -15,8 +15,10 @@ React Portfolio is a single-page application built from scratch using react.js. 
 
 ## Installation
 
-
-
+1. Clone project repository down into your desired directory 
+2. Open project terminal and run the command `npm install` to install the packages and dependencies 
+3. To invoke the application, run the command `npm run start` and this will start the server and automatically restart it whenever changes are made
+4. To end and stop the application from running, run the command `control c`
 
 ## Usage
 
@@ -30,7 +32,7 @@ The image below shows the apperance of my portfolio application
 
 ## Badges
 
-[![Static Badge](https://img.shields.io/badge/GitHub-mandi7469-darkgreen)](https://github.com/mandi7469) [![Static Badge](https://img.shields.io/badge/Express.js-4.17.1-blue%20)](https://www.npmjs.com/package/express) [![Static Badge](https://img.shields.io/badge/Nodemon-2.0.4-green)](https://www.npmjs.com/package/nodemon) [![Static Badge](https://img.shields.io/badge/idb-6.1.2-purple)](https://www.npmjs.com/package/idb) [![Static Badge](https://img.shields.io/badge/Package-Babel-red)](https://www.npmjs.com/package/Babel) [![Static Badge](https://img.shields.io/badge/Package-Webpack-lightblue)](https://www.npmjs.com/package/webpack) [![Static Badge](https://img.shields.io/badge/Package-CodeMirror-darkred)](https://www.npmjs.com/package/code-mirror-themes) 
+[![Static Badge](https://img.shields.io/badge/GitHub-mandi7469-darkgreen)](https://github.com/mandi7469) [![Static Badge](https://img.shields.io/badge/React-18.3.1-blue%20)](https://www.npmjs.com/package/react) [![Static Badge](https://img.shields.io/badge/Vite-5.4.1-purple)](https://www.npmjs.com/package/vite) [![Static Badge](https://img.shields.io/badge/Bootstrap-5.2.3-red)](https://www.npmjs.com/package/bootstrap) 
 
 
 ## How to Contribute
