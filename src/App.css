@@ -12,7 +12,7 @@
 }
 
 .portfolio-footer {
-  font-size: 30px;
+  font-size: 25px;
   display: flex;
   justify-content: center;
   position: relative;
@@ -40,7 +40,9 @@ h1, p, h5{
   color: var(--un-blue);
 }
 
-
+.message {
+  color: var(--whitesmoke);
+}
 
 /* .card-img-top {
   height: 10rem;
