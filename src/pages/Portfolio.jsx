@@ -92,7 +92,7 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-        <div className="row pt-4">
+        <div className="row pt-4 pb-3">
           <div className="col-4 d-flex justify-content-center">
             <div className="card" style={{ width: "18rem" }}>
               <img

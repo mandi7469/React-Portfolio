@@ -24,9 +24,9 @@ React Portfolio is a single-page application built from scratch using react.js. 
 
 [Deployed application link]()
 
-The image below shows the apperance of my portfolio application
+The image below shows the apperance of the portfolio page of my application:
 
-![alt text]()
+![alt text](./src/assets/images/Screenshot%202024-08-30%20at%206.44.31 PM.png)
 
 
 
