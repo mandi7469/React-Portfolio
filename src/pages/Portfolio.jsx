@@ -13,7 +13,7 @@ export default function Portfolio() {
           <h1>Portfolio</h1>
         </div>
         <div className="row pt-3">
-          <div className="col">
+          <div className="col d-flex justify-content-center">
             <div className="card" style={{ width: "18rem" }}>
               <img
                 src={blog}
@@ -41,65 +41,59 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
-          
-            <div className="col-4">
-              <div className="card" style={{ width: "18rem" }}>
-                <img src={svg} className="card-img-top" alt="SVG Logo" />
-                <div className="card-body">
-                  <h5 className="card-title project-title">SVG Logo Maker</h5>
-                  <p className="card-text">
-                    This is a Node.js command-line application that takes in
-                    user input to generate a logo and save it as an SVG file.
-                    The application prompts the user to select a color and
-                    shape, provide text for the logo, and save the generated SVG
-                    to a .svg file.
-                  </p>
-                  <a href="https://github.com/mandi7469/SVG-Logo-Maker">
-                    <i
-                      className="bi bi-github pe-5"
-                      style={{ color: "#65AFFF" }}
-                    ></i>
-                  </a>
 
-                  <a href="https://drive.google.com/file/d/1jgl9_uwQXjhocPaFKiaU2EMhKSNe1saS/view?usp=sharing">
-                    <i class="bi bi-link" style={{ color: "#65AFFF" }}></i>
-                  </a>
-                </div>
+          <div className="col-4 d-flex justify-content-center">
+            <div className="card" style={{ width: "18rem" }}>
+              <img src={svg} className="card-img-top" alt="SVG Logo" />
+              <div className="card-body">
+                <h5 className="card-title project-title">SVG Logo Maker</h5>
+                <p className="card-text">
+                  This is a Node.js command-line application that takes in user
+                  input to generate a logo and save it as an SVG file. The
+                  application prompts the user to select a color and shape,
+                  provide text for the logo, and save the generated SVG to a
+                  .svg file.
+                </p>
+                <a href="https://github.com/mandi7469/SVG-Logo-Maker">
+                  <i
+                    className="bi bi-github pe-5"
+                    style={{ color: "#65AFFF" }}
+                  ></i>
+                </a>
+
+                <a href="https://drive.google.com/file/d/1jgl9_uwQXjhocPaFKiaU2EMhKSNe1saS/view?usp=sharing">
+                  <i class="bi bi-link" style={{ color: "#65AFFF" }}></i>
+                </a>
               </div>
             </div>
-        
-         
-            <div className="col-4">
-              <div className="card" style={{ width: "18rem" }}>
-                <img
-                  src={taskBoard}
-                  className="card-img-top"
-                  alt="Task Board"
-                />
-                <div className="card-body">
-                  <h5 className="card-title project-title">Task Board</h5>
-                  <p className="card-text">
-                    Task Board is an application that allows users to manage and
-                    delete tasks. This application runs in the browser and
-                    features dynamically updated HTML and CSS powered by JQuery.
-                  </p>
-                  <a href="https://github.com/mandi7469/Task-Board">
-                    <i
-                      className="bi bi-github pe-5"
-                      style={{ color: "#65AFFF" }}
-                    ></i>
-                  </a>
+          </div>
 
-                  <a href="https://mandi7469.github.io/Task-Board/">
-                    <i class="bi bi-link" style={{ color: "#65AFFF" }}></i>
-                  </a>
-                </div>
+          <div className="col-4 d-flex justify-content-center">
+            <div className="card" style={{ width: "18rem" }}>
+              <img src={taskBoard} className="card-img-top" alt="Task Board" />
+              <div className="card-body">
+                <h5 className="card-title project-title">Task Board</h5>
+                <p className="card-text">
+                  Task Board is an application that allows users to manage and
+                  delete tasks. This application runs in the browser and
+                  features dynamically updated HTML and CSS powered by JQuery.
+                </p>
+                <a href="https://github.com/mandi7469/Task-Board">
+                  <i
+                    className="bi bi-github pe-5"
+                    style={{ color: "#65AFFF" }}
+                  ></i>
+                </a>
+
+                <a href="https://mandi7469.github.io/Task-Board/">
+                  <i class="bi bi-link" style={{ color: "#65AFFF" }}></i>
+                </a>
               </div>
             </div>
-          
+          </div>
         </div>
         <div className="row pt-4">
-          <div className="col-4">
+          <div className="col-4 d-flex justify-content-center">
             <div className="card" style={{ width: "18rem" }}>
               <img
                 src={weather}
@@ -126,62 +120,60 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
-          
-            <div className="col-4">
-              <div className="card" style={{ width: "18rem" }}>
-                <img
-                  src={employee}
-                  className="card-img-top"
-                  alt="Employee Tracker"
-                />
-                <div className="card-body">
-                  <h5 className="card-title project-title">Employee Tracker</h5>
-                  <p className="card-text">
-                    Employee Tracker is a command-line application to
-                    manage a company's employee database, using Node.js,
-                    Inquirer, and PostgreSQL.
-                  </p>
-                  <a href="https://github.com/mandi7469/SQL-Employee-Tracker">
-                    <i
-                      className="bi bi-github pe-5"
-                      style={{ color: "#65AFFF" }}
-                    ></i>
-                  </a>
 
-                  <a href="https://drive.google.com/file/d/1coPUpQGTgcaYGv6AJaD5MF0DFNtYHn3U/view?usp=sharing">
-                    <i class="bi bi-link" style={{ color: "#65AFFF" }}></i>
-                  </a>
-                </div>
+          <div className="col-4 d-flex justify-content-center">
+            <div className="card" style={{ width: "18rem" }}>
+              <img
+                src={employee}
+                className="card-img-top"
+                alt="Employee Tracker"
+              />
+              <div className="card-body">
+                <h5 className="card-title project-title">Employee Tracker</h5>
+                <p className="card-text">
+                  Employee Tracker is a command-line application to manage a
+                  company's employee database, using Node.js, Inquirer, and
+                  PostgreSQL.
+                </p>
+                <a href="https://github.com/mandi7469/SQL-Employee-Tracker">
+                  <i
+                    className="bi bi-github pe-5"
+                    style={{ color: "#65AFFF" }}
+                  ></i>
+                </a>
+
+                <a href="https://drive.google.com/file/d/1coPUpQGTgcaYGv6AJaD5MF0DFNtYHn3U/view?usp=sharing">
+                  <i class="bi bi-link" style={{ color: "#65AFFF" }}></i>
+                </a>
               </div>
             </div>
-          
-        
-            <div className="col-4">
-              <div className="card" style={{ width: "18rem" }}>
-                <img src={shelfie} className="card-img-top" alt="Shelfie" />
-                <div className="card-body">
-                  <h5 className="card-title project-title">Shelfie</h5>
-                  <p className="card-text">
-                    Shelfie was a collaborative project. The application allows
-                    the user to create and maintain a collection of books that
-                    they have read, or wish to read in the future. The
-                    application utilizes postgreSQL, Node.js, Express,
-                    JavaScript, CSS, and Handlebars.
-                  </p>
-                  <a href="https://github.com/mandi7469/Shelfie">
-                    <i
-                      className="bi bi-github pe-5"
-                      style={{ color: "#65AFFF" }}
-                    ></i>
-                  </a>
+          </div>
 
-                  <a href="https://shelfie-53sl.onrender.com/">
-                    <i class="bi bi-link" style={{ color: "#65AFFF" }}></i>
-                  </a>
-                </div>
+          <div className="col-4 d-flex justify-content-center">
+            <div className="card" style={{ width: "18rem" }}>
+              <img src={shelfie} className="card-img-top" alt="Shelfie" />
+              <div className="card-body">
+                <h5 className="card-title project-title">Shelfie</h5>
+                <p className="card-text">
+                  Shelfie was a collaborative project. The application allows
+                  the user to create and maintain a collection of books that
+                  they have read, or wish to read in the future. The application
+                  utilizes postgreSQL, Node.js, Express, JavaScript, CSS, and
+                  Handlebars.
+                </p>
+                <a href="https://github.com/mandi7469/Shelfie">
+                  <i
+                    className="bi bi-github pe-5"
+                    style={{ color: "#65AFFF" }}
+                  ></i>
+                </a>
+
+                <a href="https://shelfie-53sl.onrender.com/">
+                  <i class="bi bi-link" style={{ color: "#65AFFF" }}></i>
+                </a>
               </div>
             </div>
-          
+          </div>
         </div>
       </div>
     </div>
