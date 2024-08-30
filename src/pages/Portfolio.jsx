@@ -41,8 +41,8 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
-          <div className="col">
-            <div className="col">
+          
+            <div className="col-4">
               <div className="card" style={{ width: "18rem" }}>
                 <img src={svg} className="card-img-top" alt="SVG Logo" />
                 <div className="card-body">
@@ -67,9 +67,9 @@ export default function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="col">
-            <div className="col">
+        
+         
+            <div className="col-4">
               <div className="card" style={{ width: "18rem" }}>
                 <img
                   src={taskBoard}
@@ -96,10 +96,10 @@ export default function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
+          
         </div>
         <div className="row pt-4">
-          <div className="col">
+          <div className="col-4">
             <div className="card" style={{ width: "18rem" }}>
               <img
                 src={weather}
@@ -126,8 +126,8 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
-          <div className="col">
-            <div className="col">
+          
+            <div className="col-4">
               <div className="card" style={{ width: "18rem" }}>
                 <img
                   src={employee}
@@ -154,9 +154,9 @@ export default function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="col">
-            <div className="col">
+          
+        
+            <div className="col-4">
               <div className="card" style={{ width: "18rem" }}>
                 <img src={shelfie} className="card-img-top" alt="Shelfie" />
                 <div className="card-body">
@@ -181,7 +181,7 @@ export default function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
+          
         </div>
       </div>
     </div>
